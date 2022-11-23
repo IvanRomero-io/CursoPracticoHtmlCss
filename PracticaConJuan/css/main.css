@@ -48,3 +48,20 @@ header nav .nav-right-section a img{
     border-radius: 50px;
     margin-left: 10px;
 }
+
+
+main{
+    margin-top: 80px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    height: 200px;
+    width: 450px;
+}
