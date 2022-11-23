@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav-right-section a{
+    margin-right: 10px;
+    color: #000000;
+}
+
+header nav .nav-right-section .menu-icon{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/95/95088.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    opacity: .65;
+    /* el bk-repeat sirve para que la imagen no se repita, ek bk-position sirve para que la imagen se centre en la etiqueta, el bk-size:contain:, sirve para que solo ocupe el tamaño de la etiqueta */
+}
+
+header nav .nav-right-section a img{
+    border-radius: 50px;
+    margin-left: 10px;
+}
