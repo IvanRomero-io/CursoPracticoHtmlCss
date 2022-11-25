@@ -46,7 +46,6 @@ main .main-nav{
 main .main-nav section{
     width: 26rem;
     height: 100%;
-    border: 1px solid rgb(236, 75, 75);
 }
 
 main .main-nav section ul{
@@ -69,22 +68,50 @@ main .main-nav section ul li{
 
 main .main-nav section ul li a{
     font-size: 2rem;
+    font-family: sans-serif;
     text-decoration: none;
     color: #36c;
 }
+main .main-nav section ul li a:hover{
+    text-decoration: underline;
+}
+
+main .main-nav section ul li p{
+    color: #54595d;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
 
 main .main-nav .sec1 ul li:nth-child(1), main .main-nav .sec1 ul li:nth-child(5){
-    padding-left: 100px;
+    padding-left: 170px;
 }
 
 main .main-nav .sec1 ul li:nth-child(2), main .main-nav .sec1 ul li:nth-child(4){
-    padding-left: 25px;
+    padding-left: 85px;
 }
 
 main .main-nav .sec3 ul li:nth-child(1), main .main-nav .sec3 ul li:nth-child(5){
-    padding-right: 100px;
+    padding-right: 170px;
 }
 
 main .main-nav .sec3 ul li:nth-child(2), main .main-nav .sec3 ul li:nth-child(4){
-    padding-right: 25px;
+    padding-right: 85px;
+}
+
+main .main-nav .sec1 ul li:nth-child(3){
+    padding-left: 40px;
+}
+
+main .main-nav .sec3 ul li:nth-child(3){
+    padding-right: 40px;
+}
+
+main .main-nav .sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-nav .sec2 img{
+    width: 310px;
 }
