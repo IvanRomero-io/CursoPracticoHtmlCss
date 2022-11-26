@@ -14,7 +14,7 @@ html{
 
 header{
     width: 100%;
-    height: 15rem;
+    height: 13rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +40,17 @@ header h2{
 header .tittle{
     margin-top: 3rem;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    /* padding: 15px; */
+}
+
 
 main .main-nav{
     width: 100%;
@@ -136,7 +147,7 @@ main .search{
 main .search .search-bar{
     display: flex;
     background-color: #FFFFFF;
-    width: 400px;
+    width: 570px;
     height: 40px;
     border: 0.1rem solid #a2a9b1;
 }
@@ -163,7 +174,6 @@ main .search .search-bar .lenguage-changer{
     font-size: 1.3rem;
     font-family: sans-serif;
     color: #54595d;
-    /* border-right: 1px solid grey; */
 }
 
 main .search .search-bar .lenguage-changer span img{
@@ -194,12 +204,14 @@ main .search .search-bar .glass .lupa{
 }
 
 main .search .search-lenguage{
-    width: 400px ;
+    width: 570px ;
     height: 45px;
     margin-top: 20px;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 
 main .search .search-lenguage div{
@@ -210,6 +222,40 @@ main .search .search-lenguage div{
 
 main .search .search-lenguage .text-lenguage{
     width: 50%;
+    height: 30px;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    margin: 1rem;
+    border: 1px solid #a2a9b1 ;
+    background-color: #f8f9fa;
+    display: inline-block;
+    padding: 4px;
+    align-items: center;
+    
+}
+
+main .search .search-lenguage .text-lenguage a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #54595d;
+}
+
+main .search .search-lenguage .text-lenguage a:hover{
+    text-decoration: underline;
+
+}
+
+main .search .search-lenguage .text-lenguage .signo-de-traducccion{
+    width: 25px;
+    
+}
+
+main .search .search-lenguage .text-lenguage .barra-abajo-img{
+    width: 10px;
+    height: 8px;
+    opacity: .55;
 }
 
 main .search .search-lenguage .barra{
@@ -223,3 +269,13 @@ main .search .search-lenguage .barra hr{
     border: 0.5px solid #a2a9b1;
     color: #a2a9b1;
 }
+
+main > hr{
+    display: flex;
+    margin-top: 2rem;
+    width: 95%;
+    padding: 0;
+    border: 1px solid #a2a9b1;
+    color: #a2a9b1;
+}
+
