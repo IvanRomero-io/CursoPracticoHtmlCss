@@ -41,15 +41,15 @@ header .tittle{
     margin-top: 3rem;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-sizing: border-box;
-    /* padding: 15px; */
-}
+    box-sizing: border-box; 
+    padding: 15px;
+ }
 
 
 main .main-nav{
@@ -273,9 +273,77 @@ main .search .search-lenguage .barra hr{
 main > hr{
     display: flex;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 95%;
     padding: 0;
     border: 1px solid #a2a9b1;
     color: #a2a9b1;
 }
 
+main .content-index{
+    width: 95%;
+    height: 32rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .content-index section{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(204, 204, 204, 0.158);
+    display: flex;
+    flex-direction: column;
+}
+
+main .content-index .col1{
+    width: 30%;
+}
+
+main .content-index section > div{
+    background-color: #fdfdfd44;
+    width: 100%;
+    height: 25%;
+    border-top: 1px solid yellow;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .content-index .col1 > div{
+    background-color: rgba(255, 255, 0, 0.158);
+    width: 100%;
+    height: 50%;
+}
+
+main .content-index section > div > .info-text{
+    width: 130px;
+    height: 30px;
+    background-color: rgba(64, 101, 175, 0.075);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+main .content-index section > div > .info-text a{
+    text-decoration: none;
+    color: #36c;
+    font-size: 1.4rem;
+}
+
+main .content-index section > div > .info-text a:hover{
+    color: rgb(110, 29, 60);
+    text-decoration: underline;
+}
+
+main .content-index section > div > .info-text p{
+    color: #54595d;
+}
+
+main .content-index section > div > img{
+    width: 40px;
+}
