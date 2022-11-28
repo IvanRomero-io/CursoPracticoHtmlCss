@@ -297,6 +297,8 @@ main .content-index section{
 
 main .content-index .col1{
     width: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
 main .content-index section > div{
@@ -305,14 +307,41 @@ main .content-index section > div{
     display: flex; 
     justify-content: center;
     align-items: center;
-
 }
 
 main .content-index .col1 > div{
-    background-color: rgba(255, 255, 0, 0.158);
+    box-sizing: border-box;
     width: 100%;
-    height: 50%;
+    
 }
+
+main .content-index .col1 > .div1{
+    height: 35%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+main .content-index .col1 > .div1 > div{
+    box-sizing: border-box;
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 5.5px;
+    color: #54595d;
+    font-size: 1.2rem;
+}
+
+
+main .content-index .col1 > .div2{
+    height: 65%;
+    background-color: #f8f9fa;
+}
+
+
 
 main .content-index section > div > .info-text{
     box-sizing: border-box;
