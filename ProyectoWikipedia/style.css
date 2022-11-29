@@ -417,7 +417,7 @@ main .content-index section > div > .info-text a{
     font-size: 2rem;
 }
 
-main .content-index section > div > .info-text a:hover{
+main .content-index section > div > .info-text a:hover, footer .pie-pagina p a:hover, footer .pie-pagina ul li a:hover{
     color: rgb(110, 29, 60);
     text-decoration: underline;
 }
@@ -433,4 +433,47 @@ main .content-index section > div > img{
 
 #wiki-news{
     width: 38px;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .pie-pagina{
+    width: 1000px;
+    height: 100%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer .pie-pagina p a{
+    text-decoration: none;
+    color: #36c;
+}
+
+footer .pie-pagina ul{
+    display: flex;
+    margin: 0 5px;
+}
+
+footer .pie-pagina ul li{
+    margin: 0 3px;
+    list-style: none;
+}
+
+footer .pie-pagina ul li::before{
+    content: "▪     ";
+    font-size: 1.6rem;
+    color: black;
+}
+
+footer .pie-pagina ul li a{
+    text-decoration: none;
+    color: #36c;
 }
